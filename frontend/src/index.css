@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+.gff-navbar {
+  background: linear-gradient(90deg, #ce1126 0%, #ffffff 50%, #0c1c8c 100%);
+  border-bottom: 3px solid #3a7724;
+}
+
+.gff-brand {
+  font-weight: 700;
+  color: #0c1c8c !important;
+}
+
+.gff-hero {
+  background: linear-gradient(135deg, #0c1c8c 0%, #3a7724 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-card {
+  border-left: 4px solid #ce1126;
+  transition: transform 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+}
+
+.loading-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.auth-page {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gff-flag-bar {
+  height: 4px;
+  background: linear-gradient(90deg, #ce1126 33%, #ffffff 33%, #ffffff 66%, #3a7724 66%);
+}
+
+.table-responsive {
+  background: white;
+  border-radius: 8px;
+}
+
+.page-header {
+  border-bottom: 2px solid #3a7724;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
