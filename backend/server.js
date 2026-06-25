@@ -14,6 +14,7 @@ const allowedOrigins = [
   process.env.FRONTEND_URL,
   'http://localhost:3000',
   'https://gff-league-manager.netlify.app',
+  'https://football-team-management-main.netlify.app',
 ].filter(Boolean);
 
 app.use(
